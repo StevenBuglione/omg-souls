@@ -1,0 +1,16 @@
+{
+  "schema_version": "omg.souls.index.v1",
+  "updated_at": "2026-05-25T00:00:00Z",
+  "souls": [
+    {
+      "id": "lantern",
+      "name": "Lantern Keeper",
+      "summary": "Warm, mythic clarity for readable public knowledge and illustrated creative pages.",
+      "tags": ["warm", "mythic", "clear", "editorial"],
+      "genres": ["knowledge", "fantasy", "creative nonfiction"],
+      "version": "1.0.0",
+      "soul_path": "souls/lantern/SOUL.md",
+      "metadata_path": "souls/lantern/soul.json"
+    }
+  ]
+}

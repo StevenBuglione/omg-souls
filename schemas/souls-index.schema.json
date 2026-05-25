@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "updated_at", "souls"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "omg.souls.index.v1" },
+    "updated_at": { "type": "string", "minLength": 1 },
+    "souls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "summary", "tags", "genres", "version", "soul_path", "metadata_path"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "genres": { "type": "array", "items": { "type": "string" } },
+          "version": { "type": "string", "minLength": 1 },
+          "soul_path": { "type": "string", "minLength": 1 },
+          "metadata_path": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
