@@ -1,0 +1,8 @@
+{
+  "name": "omg-souls",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-souls.mjs"
+  }
+}

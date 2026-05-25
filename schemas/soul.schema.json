@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["id", "name", "summary", "tags", "genres", "tone", "content_boundaries", "recommended_uses", "version", "updated_at"],
+  "required": ["id", "name", "summary", "tags", "genres", "tone", "craft", "content_boundaries", "recommended_uses", "version", "updated_at"],
   "additionalProperties": false,
   "properties": {
     "id": { "type": "string", "minLength": 1 },
@@ -10,6 +10,46 @@
     "tags": { "type": "array", "items": { "type": "string" } },
     "genres": { "type": "array", "items": { "type": "string" } },
     "tone": { "type": "array", "items": { "type": "string" } },
+    "craft": {
+      "type": "object",
+      "required": [
+        "narrative_stance",
+        "pov_strategy",
+        "prose_rhythm",
+        "scene_construction",
+        "dialogue_habits",
+        "emotional_palette",
+        "imagery_system",
+        "pacing_rules",
+        "character_interiority_rules",
+        "revision_checklist",
+        "taboos",
+        "examples"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "narrative_stance": { "type": "string", "minLength": 1 },
+        "pov_strategy": { "type": "string", "minLength": 1 },
+        "prose_rhythm": { "type": "string", "minLength": 1 },
+        "scene_construction": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "dialogue_habits": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "emotional_palette": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "imagery_system": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "pacing_rules": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "character_interiority_rules": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "revision_checklist": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "taboos": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "examples": {
+          "type": "object",
+          "required": ["good", "bad"],
+          "additionalProperties": false,
+          "properties": {
+            "good": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+            "bad": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          }
+        }
+      }
+    },
     "content_boundaries": { "type": "array", "items": { "type": "string" } },
     "recommended_uses": { "type": "array", "items": { "type": "string" } },
     "version": { "type": "string", "minLength": 1 },
