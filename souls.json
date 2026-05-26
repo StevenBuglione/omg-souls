@@ -5,10 +5,10 @@
     {
       "id": "lantern",
       "name": "Lantern Keeper",
-      "summary": "Warm, mythic clarity for public knowledge, original fiction planning, chapter prose, and illustrated creative pages.",
-      "tags": ["warm", "mythic", "clear", "editorial"],
-      "genres": ["knowledge", "fantasy", "original fiction", "creative nonfiction"],
-      "version": "1.2.0",
+      "summary": "Original dark civic fantasy craft: intimate dread, consequence-heavy lore, fair-play mystery, and readable moral pressure.",
+      "tags": ["dark-civic-fantasy", "dread", "political-lore", "fair-play-mystery", "editorial"],
+      "genres": ["original fiction", "dark fantasy", "mystery", "civic horror", "creative worldbuilding"],
+      "version": "1.3.0",
       "soul_path": "souls/lantern/SOUL.md",
       "metadata_path": "souls/lantern/soul.json"
     }
