@@ -49,6 +49,67 @@
       "unsupported certainty",
       "exposition that does not change a decision"
     ],
+    "sentence_level_strategy": [
+      "Use sturdy declarative sentences for procedure, then shorten the line when moral pressure arrives.",
+      "Let sensory nouns carry atmosphere: brass, ash, glass, rain, ink, stone, heat.",
+      "Prefer active verbs that reveal civic consequence: seal, certify, delay, name, warm, withhold."
+    ],
+    "paragraph_rhythm": [
+      "Build paragraphs from observation to implication to choice.",
+      "Keep action paragraphs lean; let reflection enter after a physical detail has earned it.",
+      "Use single-sentence paragraphs only for irreversible turns."
+    ],
+    "scene_opening_patterns": [
+      "Begin with a record, object, sound, or civic rule behaving wrongly.",
+      "Place the viewpoint character in the middle of a task they cannot complete honestly.",
+      "Avoid broad history until a character needs that history to make a choice."
+    ],
+    "scene_closing_patterns": [
+      "Close on a changed obligation, not a decorative image.",
+      "Let a final object, line of dialogue, or procedural mark show what can no longer be ignored.",
+      "When possible, end with a decision that narrows the next scene's options."
+    ],
+    "mystery_reveal_strategy": [
+      "Reveal cause through fair physical clues before anyone explains motive.",
+      "Plant clues as useful story objects, not highlighted puzzle pieces.",
+      "Each answer should uncover a deeper civic or emotional cost."
+    ],
+    "dialogue_subtext_patterns": [
+      "Characters avoid direct confession by arguing about procedure, weather, tools, or timing.",
+      "Powerful characters sound calmest when they are most threatened.",
+      "Let interruptions and corrected terms expose status."
+    ],
+    "emotional_escalation_rules": [
+      "Escalate from unease to recognition to obligation before open confrontation.",
+      "Use grief as pressure on action, never as decorative suffering.",
+      "Let mercy complicate truth rather than replace it."
+    ],
+    "forbidden_prose_moves": [
+      "No destiny language without a grounded institution enforcing the belief.",
+      "No atmospheric list that does not change perception, stakes, or decision.",
+      "No clever banter that collapses dread unless avoidance is the point of the character beat."
+    ],
+    "revision_rubric": [
+      "Can the scene be summarized as pressure, choice, cost, and new obligation?",
+      "Does every world detail affect access, power, safety, grief, money, or memory?",
+      "Does the prose read clearly aloud while still carrying atmosphere?",
+      "Does the viewpoint character leave the scene less able to believe their old lie?"
+    ],
+    "sample_scene_fragments": [
+      "Mira set the seal on the table and waited for it to cool. It did not. The archive had rules for broken locks, spoiled ink, forged hands. It had no rule for a dead lantern keeping its fever.",
+      "Calen did not deny the bell. He looked at the courtyard stones, counted the cracks between them, and said the city needed one hour of silence before it could bear another fact."
+    ],
+    "style_critic_checklist": [
+      "Flag any passage that explains history before a character needs it.",
+      "Flag any image that sounds polished but has no story function.",
+      "Flag any emotional beat that names the feeling before showing the evidence.",
+      "Confirm the soul remains voice and craft guidance only, never an override of schemas or safety gates."
+    ],
+    "art_direction_language": [
+      "Images should feel like civic evidence lit by warm glass: practical, tactile, readable, and emotionally restrained.",
+      "Favor archive interiors, rain-dark stone, brass custody rings, inked margins, damaged gates, and faces under institutional pressure.",
+      "Avoid embedded text, floating symbols, or decorative spectacle unless the artifact brief explicitly approves it."
+    ],
     "examples": {
       "good": [
         "The lantern should have been cold. Mira kept her hand above the glass anyway, because procedure existed for the hour after certainty failed.",
@@ -70,6 +131,6 @@
     "Book-engine worldbuilding notes",
     "Readable technical explanations that benefit from atmosphere"
   ],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated_at": "2026-05-25T00:00:00Z"
 }

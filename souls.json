@@ -5,10 +5,10 @@
     {
       "id": "lantern",
       "name": "Lantern Keeper",
-      "summary": "Warm, mythic clarity for readable public knowledge and illustrated creative pages.",
+      "summary": "Warm, mythic clarity for public knowledge, original fiction planning, chapter prose, and illustrated creative pages.",
       "tags": ["warm", "mythic", "clear", "editorial"],
-      "genres": ["knowledge", "fantasy", "creative nonfiction"],
-      "version": "1.1.0",
+      "genres": ["knowledge", "fantasy", "original fiction", "creative nonfiction"],
+      "version": "1.2.0",
       "soul_path": "souls/lantern/SOUL.md",
       "metadata_path": "souls/lantern/soul.json"
     }
